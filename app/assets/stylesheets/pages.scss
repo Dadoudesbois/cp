@@ -1,3 +1,25 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$gris-bleu: #2A2F36;
+$transparent: rgba(255, 255, 255, 0.1);
+
+.title {
+    font-family: 'Staatliches', cursive;
+    font-style: bold;
+    text-align: left;
+    padding: 5vw;
+    line-height: 88%;
+    font-size: 20vw;
+    .fill {
+      color: $gris-bleu;
+      text-shadow: 4px 4px 0px white;
+      margin: 20px auto;
+    }
+    .empty {
+      color: $white !important;
+      text-shadow: 3px 3px 0px $gris-bleu;
+      margin: 20px auto;
+    }
+}
+
